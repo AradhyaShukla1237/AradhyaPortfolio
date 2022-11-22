@@ -156,3 +156,13 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-theme', getCurrentTheme())
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
+ // typing text animation script
+ let typed = new Typed(".typing", {
+   strings: ["Frontend Developer", "UI/UX Designer", "Blogger", "Web Designer", "Graphic Designer"],
+   typeSpeed: 100,
+   backSpeed: 100,
+   loop: true
+ });
+
+ 
+
